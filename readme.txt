@@ -20,3 +20,11 @@ docker run -d -p 3000:3000 video-streaming
 docker container list список запущенных
 docker logs <container-id>
 docker stop <container-id>
+Удаление контейнера:
+docker ps  показывает запушенные и остановленные
+docker kill <your-container-id>
+docker rm <your-container-id>
+docker image list
+docker rmi <your-image-id> --force
+запуск из Azure репозитория:
+docker run -d -p 3000:3000 kvexcavatormsrs.azurecr.io/video-streaming:latest
