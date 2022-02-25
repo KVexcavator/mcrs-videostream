@@ -50,3 +50,14 @@ docker-compose stop
 docker-compose down
 перезапуск:
 docker-compose down && docker-compose up --build
+
+---------------------------
+для azure-storage
+export PORT=3000
+export STORAGE_ACCOUNT_NAME=<the name of your storage account>
+export STORAGE_ACCESS_KEY=<the access key for your storage account>
+npm run start:dev
+------------------------------
+
+http://localhost:4000/video?path=SampleVideo_1280x720_10mb.mp4
+http://localhost:4001/video

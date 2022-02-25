@@ -1,2 +1,5 @@
 video-streaming/node_modules/
 video-streaming/package-lock.json
+azure-storage/node_modules/
+azure-storage/package-lock.json
+secr.txt
