@@ -36,3 +36,17 @@ docker rmi <your-image-id> --force
 docker run -d -p 3000:3000 kvexcavatormsrs.azurecr.io/video-streaming:latest
 ----------------------------------------
 Docker Compose
+docker-compose help
+
+построить и запустить
+docker-compose up --build
+
+список запущенных контейнеров:
+docker-compose ps
+
+остановка с переводом в сотоянию остановлено:
+docker-compose stop
+остановка с очисткой:
+docker-compose down
+перезапуск:
+docker-compose down && docker-compose up --build
